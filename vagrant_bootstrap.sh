@@ -2,8 +2,8 @@
 mysql_password=om1234   # Dummy password, update it
 apt-get update
 apt-get install -y apache2
-rm -rf /var/www
-ln -fs /vagrant /var/www
+rm -rf /var/www/html
+ln -fs /vagrant /var/www/html
 
 #set-up apache
 apt-get install -y vim htop subversion git-all
